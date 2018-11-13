@@ -1,0 +1,437 @@
+
+extends layout
+
+block content
+	include lib/header	
+	#sitecontent
+		#indexPage
+			#mslider.module
+				ul.slider(data-options-height='', data-options-auto='1', data-options-mode='0', data-options-pause='8', data-options-ease='ease-out')
+					li.active(style='background-image:url(/two/images/home/1462382314720.jpg)')
+						#tempImage_0
+						video.slider-video(width='100%', height='100%', autoplay='', loop='', preload='auto', style='width:100%; height:auto;')
+							source(src='/two/images/home/bg1crz.mp4', type='video/mp4')
+						.mask
+						a(target='_blank', href='javascript:;')
+							div
+								p.title.ellipsis Welcome To Maker Cloud
+								p.subtitle 创客云数字市场是一个主题模板/创意作品/数字交易平台，你可以出售最优秀的网页模板和平面设计作品！本站全部主题模板为100%正品模板，支持更新升级！
+							.sliderArrow.fa.fa-angle-down
+					li.active(style='background-image:url(/two/images/home/1462387616340.jpg)')
+						#tempImage_0
+						video.slider-video(width='100%', height='100%', autoplay='', loop='', preload='auto', style='width:100%; height:auto;')
+							source(src='/two/images/home/bg1crz.mp4', type='video/mp4')
+						.mask
+						a(target='_blank', href='javascript:;')
+							div
+								p.title.ellipsis Hospital Vall d'Hebron Barcelon
+								p.subtitle 创客云数字市场是一个主题模板/创意作品/数字交易平台，你可以出售最优秀的网页模板和平面设计作品！本站全部主题模板为100%正品模板，支持更新升级！
+							.sliderArrow.fa.fa-angle-down
+					li.active(style='background-image:url(/two/images/home/1462387616340.jpg)')
+						#tempImage_0
+						video.slider-video(width='100%', height='100%', autoplay='', loop='', preload='auto', style='width:100%; height:auto;')
+							source(src='/two/images/home/bg1crz.mp4', type='video/mp4')
+						.mask
+						a(target='_blank', href='javascript:;')
+							div
+								p.title.ellipsis Hospital Vall d'Hebron Barcelon
+								p.subtitle
+									| For users' convenience, you can feed water directly through the top hole and not
+									| into a separate reservoir.
+							.sliderArrow.fa.fa-angle-down
+			
+			#mproject.module.bgShow(style='background-image:url(/two/images/home/zp2.png);')
+				.bgmask
+				.content.layoutslider
+					.header.wow
+						p.title 产品
+						p.subtitle Product design
+					// yyLayout masonry
+					#projectlist.module-content
+						#projectSubList_.projectSubList
+							.projectSubHeader
+								p.title
+								p.subtitle
+							.wrapper
+								ul.content_list(data-options-sliders='4', data-options-margin='20', data-options-ease='cubic-bezier(0.5,0.2,0.2,1)', data-options-speed='0.5')
+									li#projectitem_1.projectitem.wow
+										a.projectitem_content(href='a/chanpin/chanpinsheji/9.html', tppabs='http://dede40.va666.com/a/chanpin/chanpinsheji/9.html', target='_blank')
+											.projectitem_wrapper
+												.project_img
+													img(src='/two/images/home/1464943103771.jpg', tppabs='http://dede40.va666.com/two/images/home/1464943103771.jpg', width='650', height='385')
+												.project_info
+													div
+														p.title IVYBOI 2015春季新款发售
+														p.subtitle 工业设计
+									li#projectitem_2.projectitem.wow
+										a.projectitem_content(href='a/chanpin/chanpinsheji/8.html', tppabs='http://dede40.va666.com/a/chanpin/chanpinsheji/8.html', target='_blank')
+											.projectitem_wrapper
+												.project_img
+													img(src='/two/images/home/1462474900460.jpg', tppabs='http://dede40.va666.com/two/images/home/1462474900460.jpg', width='650', height='385')
+												.project_info
+													div
+														p.title Street Snap灰色初春的气息
+														p.subtitle 创客云设计
+									li#projectitem_3.projectitem.wow
+										a.projectitem_content(href='a/chanpin/jianzhusheji/7.html', tppabs='http://dede40.va666.com/a/chanpin/jianzhusheji/7.html', target='_blank')
+											.projectitem_wrapper
+												.project_img
+													img(src='/two/images/home/1462466500644.jpg', tppabs='http://dede40.va666.com/two/images/home/1462466500644.jpg', width='650', height='385')
+												.project_info
+													div
+														p.title AGE 80's系列发售中
+														p.subtitle DIY链接文本
+									li#projectitem_4.projectitem.wow
+										a.projectitem_content(href='a/chanpin/jianzhusheji/6.html', tppabs='http://dede40.va666.com/a/chanpin/jianzhusheji/6.html', target='_blank')
+											.projectitem_wrapper
+												.project_img
+													img(src='/two/images/home/1464073643135.jpg', tppabs='http://dede40.va666.com/two/images/home/1464073643135.jpg', width='650', height='385')
+												.project_info
+													div
+														p.title LARGE ROBOT
+														p.subtitle 创客云设计
+									li#projectitem_5.projectitem.wow
+										a.projectitem_content(href='a/chanpin/jianzhusheji/5.html', tppabs='http://dede40.va666.com/a/chanpin/jianzhusheji/5.html', target='_blank')
+											.projectitem_wrapper
+												.project_img
+													img(src='/two/images/home/1464924706398.jpg', tppabs='http://dede40.va666.com/two/images/home/1464924706398.jpg', width='650', height='385')
+												.project_info
+													div
+														p.title Welcome To Maker Cloud
+														p.subtitle 工业设计
+									li#projectitem_6.projectitem.wow
+										a.projectitem_content(href='a/chanpin/jianzhusheji/4.html', tppabs='http://dede40.va666.com/a/chanpin/jianzhusheji/4.html', target='_blank')
+											.projectitem_wrapper
+												.project_img
+													img(src='/two/images/home/1462718776462.jpg', tppabs='http://dede40.va666.com/two/images/home/1462718776462.jpg', width='650', height='385')
+												.project_info
+													div
+														p.title 乔安娜kustra
+														p.subtitle 创客云设计
+									li#projectitem_7.projectitem.wow
+										a.projectitem_content(href='a/chanpin/jianzhusheji/3.html', tppabs='http://dede40.va666.com/a/chanpin/jianzhusheji/3.html', target='_blank')
+											.projectitem_wrapper
+												.project_img
+													img(src='/two/images/home/146247207060.jpg', tppabs='http://dede40.va666.com/two/images/home/146247207060.jpg', width='650', height='385')
+												.project_info
+													div
+														p.title Oculus Bridge VR
+														p.subtitle 工业设计
+							// wrapper
+							// projectSubList
+							a.more.wow(href='a/chanpin/index.htm', tppabs='http://dede40.va666.com/a/chanpin/')
+								| MORE
+								i.fa.fa-angle-right
+					// projectlist
+					.clear
+
+			#mservice.module.bgShow(style='background-image:url(/two/images/home/hservice.jpg);')
+				.bgmask
+				.content.layoutslider
+					.header.wow.fw(data-wow-delay='.1s')
+						p.title 服务
+						p.subtitle Our Advantage
+					#servicelist.module-content.fw
+						.wrapper
+							ul.content_list(data-options-sliders='3', data-options-margin='40', data-options-ease='1', data-options-speed='0.5')
+								li#serviceitem_0.serviceitem.wow
+									a(href='a/fuwu/12.html', tppabs='http://dede40.va666.com/a/fuwu/12.html', target='_blank')
+										img(src='/two/images/home/1462516884287.png', tppabs='http://dede40.va666.com/two/images/home/1462516884287.png', width='320', height='120')
+										div
+											p.title Welcome To Maker Cloud
+											p.description 产品设计，一个创造性的综合信息处理过程，通过多种元素如线条色彩等方式的组合把产品的形状以平面或立体的形式展现出来...
+									a.details(href='a/fuwu/12.html', tppabs='http://dede40.va666.com/a/fuwu/12.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#serviceitem_1.serviceitem.wow
+									a(href='a/fuwu/14.html', tppabs='http://dede40.va666.com/a/fuwu/14.html', target='_blank')
+										img(src='/two/images/home/1462517049476.png', tppabs='http://dede40.va666.com/two/images/home/1462517049476.png', width='320', height='120')
+										div
+											p.title Street Snap灰色初春的气息
+											p.description 所谓亲密性就是把所有相关的东西放在一起，如果把多个具有相关性的东西放在一起...
+									a.details(href='a/fuwu/14.html', tppabs='http://dede40.va666.com/a/fuwu/14.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#serviceitem_2.serviceitem.wow
+									a(href='a/fuwu/13.html', tppabs='http://dede40.va666.com/a/fuwu/13.html', target='_blank')
+										img(src='/two/images/home/1462517028916.png', tppabs='http://dede40.va666.com/two/images/home/1462517028916.png', width='320', height='120')
+										div
+											p.title AGE 80's系列发售中
+											p.description 我们用10年的建站经验，打造出适合中小企业的高端企业模板，精致的设计，人性化的后台...
+									a.details(href='a/fuwu/13.html', tppabs='http://dede40.va666.com/a/fuwu/13.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+					.clear
+					a.more.wow(href='a/fuwu/index.htm', tppabs='http://dede40.va666.com/a/fuwu/')
+						| MORE
+						i.fa.fa-angle-right
+			
+			#mpage.module
+				.bgmask
+				.content
+					.module-content
+						.wrapper
+							ul.slider.one
+								li
+									.header.wow(data-wow-delay='.2s')
+										p.title 关于
+										p.subtitle About US
+									.des-wrap
+										p.description.wow(data-wow-delay='.3s')
+											| 极速建站是旗下产品。我们用10几年的高端企业网站定制服务，曾服务过：海尔、联想雅虎、凤凰中心、民生银行等尽400多家高端企业用户。从多年积累中，提炼用验、交互、设计等产品需求，从而建立极速建站产品，推翻大多数用户认为模板建站价格低所以品质差的观念。
+									a.more.wow(href='a/guanyu/index.htm', tppabs='http://dede40.va666.com/a/guanyu/', data-wow-delay='.5s')
+										| MORE
+										i.fa.fa-angle-right
+									.fimg.wow(style='background-image:url(/two/images/home/habout.jpg)')
+			
+			#mteam.module.bgShow(style='background-image:url(/two/images/home/hteam.jpg);')
+				.bgmask
+				.content.layoutslider
+					.header.wow
+						p.title 团队
+						p.subtitle uemo Team
+					.module-content.fw
+						.wrapper
+							ul.content_list(data-options-sliders='', data-options-margin='', data-options-ease='cubic-bezier(0.8,0.2,0.2,1)', data-options-speed='0.8')
+								li#teamitem_0.wow
+									.header.wow(data-wow-delay='.2s')
+										a(href='a/tuandui/17.html', tppabs='http://dede40.va666.com/a/tuandui/17.html', target='_blank')
+											img(src='/two/images/home/1449602458557.jpg', tppabs='http://dede40.va666.com/two/images/home/1449602458557.jpg', width='180', height='180')
+									.summary.wow
+										p.title
+											a(href='a/tuandui/17.html', tppabs='http://dede40.va666.com/a/tuandui/17.html')
+												| AGE
+												| 80's系列发售中
+										p.subtitle 创客云设计
+										p.description.wow 创客云数字市场是一个主题模板/创意作品/数字交易平台，你可以出售最优秀的网页模板和平面设计作品！本站全部主题模板为100%正品模板，支持更新升级！
+									a.details(href='a/tuandui/17.html', tppabs='http://dede40.va666.com/a/tuandui/17.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#teamitem_1.wow
+									.header.wow(data-wow-delay='.2s')
+										a(href='a/tuandui/16.html', tppabs='http://dede40.va666.com/a/tuandui/16.html', target='_blank')
+											img(src='/two/images/home/1449602554347.jpg', tppabs='http://dede40.va666.com/two/images/home/1449602554347.jpg', width='180', height='180')
+									.summary.wow
+										p.title
+											a(href='a/tuandui/16.html', tppabs='http://dede40.va666.com/a/tuandui/16.html')
+												| KTZ
+												| x New Era
+										p.subtitle 工业设计
+										p.description.wow
+											| station host computer desktop wallpaper cool Sibutramine 2014-2015
+											| Chinese Web Design Alliance design panel- one of the Photoshop creative books, a senior designer,
+											| and a senior designer.
+									a.details(href='a/tuandui/16.html', tppabs='http://dede40.va666.com/a/tuandui/16.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#teamitem_2.wow
+									.header.wow(data-wow-delay='.2s')
+										a(href='a/tuandui/15.html', tppabs='http://dede40.va666.com/a/tuandui/15.html', target='_blank')
+											img(src='/two/images/home/1449643161990.jpg', tppabs='http://dede40.va666.com/two/images/home/1449643161990.jpg', width='180', height='180')
+									.summary.wow
+										p.title
+											a(href='a/tuandui/15.html', tppabs='http://dede40.va666.com/a/tuandui/15.html') 乔安娜kustra
+										p.subtitle 创客云设计
+										p.description.wow 多年来，我们一直专注于互联网整合营销传播服务，截止目前我们已经服务过300多个大型客户......
+									a.details(href='a/tuandui/15.html', tppabs='http://dede40.va666.com/a/tuandui/15.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+					.clear
+					a.more.wow(href='index.htm', tppabs='http://dede40.va666.com/')
+						| MORE
+						i.fa.fa-angle-right
+			
+			#mnews.module.bgShow(style='background-image:url(/two/images/home/hnews.jpg);')
+				.bgmask
+				.content.layoutnone
+					.header.wow
+						p.title 新闻
+						p.subtitle news
+					#newslist.module-content
+						.wrapper
+							ul.content_list(data-options-sliders='2', data-options-margin='0', data-options-ease='cubic-bezier(0.5,0.2,0.2,1)', data-options-speed='0', data-options-mode='horizontal', data-options-wheel='0')
+								li#newsitem_0.wow.newstitem.left
+									a.newscontent(target='_blank', href='a/xinwen/chanyexinwen/18.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/18.html')
+										.news_wrapper
+											.newsbody
+												p.date
+													span.md
+														| 2016
+														span -
+													span.year 11-09
+												p.title Hospital Vall d'Hebron Barcelon
+												.separator
+												p.description 响应式设计只是网站跨平台的一种网站解决方案，是兼容各种终端的一种折衷方案。下面介绍一下，为什么在很多情况下响应式设计是不值得的......
+										.newsimg(style='background-image:url(/two/images/home/146254152081.jpg)')
+									a.details(href='a/xinwen/chanyexinwen/18.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/18.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#newsitem_1.wow.newstitem.left
+									a.newscontent(target='_blank', href='a/xinwen/gsnews/32.html', tppabs='http://dede40.va666.com/a/xinwen/gsnews/32.html')
+										.news_wrapper
+											.newsbody
+												p.date
+													span.md
+														| 2016
+														span -
+													span.year 11-09
+												p.title 产品的规划（或者产品本
+												.separator
+												p.description
+													| 随着现代科技的发展、知识社会的到来、创新形态的嬗变，设计也正由专业设计师的工作向更广泛的用户参与演变，以用户为中心的、用户参与的创新设计日益受到关注，用户参与的创
+										.newsimg(style='background-image:url(/two/images/home/1464851724897.jpg)')
+									a.details(href='a/xinwen/gsnews/32.html', tppabs='http://dede40.va666.com/a/xinwen/gsnews/32.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#newsitem_2.wow.newstitem.left
+									a.newscontent(target='_blank', href='a/xinwen/gsnews/22.html', tppabs='http://dede40.va666.com/a/xinwen/gsnews/22.html')
+										.news_wrapper
+											.newsbody
+												p.date
+													span.md
+														| 2016
+														span -
+													span.year 11-09
+												p.title KTZ x New Era联名帽款即将来
+												.separator
+												p.description
+													| 先是策划一个即将实施的项目，然后按照策划的要求进行构思、制定方案、实施操作、绘制图样、进行施工、检验样本、通过设计方案的验收等整个环节的工作。总而言之设计就是设想
+										.newsimg(style='background-image:url(/two/images/home/1464847613297.jpg)')
+									a.details(href='a/xinwen/gsnews/22.html', tppabs='http://dede40.va666.com/a/xinwen/gsnews/22.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#newsitem_3.wow.newstitem.left
+									a.newscontent(target='_blank', href='a/xinwen/chanyexinwen/21.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/21.html')
+										.news_wrapper
+											.newsbody
+												p.date
+													span.md
+														| 2016
+														span -
+													span.year 11-09
+												p.title My Photography
+												.separator
+												p.description
+													| 人类通过劳动改造世界，创造文明，创造物质财富和精神财富，而最基础、最主要的创造活动是造物。设计便是造物活动进行预先的计划，可以把任何造物活动的计划技术和计划过程理
+										.newsimg(style='background-image:url(/two/images/home/1464851239449.jpg)')
+									a.details(href='a/xinwen/chanyexinwen/21.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/21.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#newsitem_4.wow.newstitem.left
+									a.newscontent(target='_blank', href='a/xinwen/chanyexinwen/20.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/20.html')
+										.news_wrapper
+											.newsbody
+												p.date
+													span.md
+														| 2016
+														span -
+													span.year 11-09
+												p.title 企业版不仅支持PC桌面端，
+												.separator
+												p.description
+													| 网站打开慢的其中一个原因是图片文件过大，一个网站在打开时需要同时加载很多图片，如果网站中每张图片都很大，必定影响网站打开速度。造成图片文件较大的原因一般分为以下几
+										.newsimg(style='background-image:url(/two/images/home/1464847514418.jpg)')
+									a.details(href='a/xinwen/chanyexinwen/20.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/20.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+								li#newsitem_5.wow.newstitem.left
+									a.newscontent(target='_blank', href='a/xinwen/chanyexinwen/19.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/19.html')
+										.news_wrapper
+											.newsbody
+												p.date
+													span.md
+														| 2016
+														span -
+													span.year 11-09
+												p.title IVYBOI 2015春季新款发售
+												.separator
+												p.description
+													| 随着现代科技的发展、知识社会的到来、创新形态的嬗变，设计也正由专业设计师的工作向更广泛的用户参与演变，以用户为中心的、用户参与的创新设计日益受到关注，用户参与的创
+										.newsimg(style='background-image:url(/two/images/home/1464847458475.jpg)')
+									a.details(href='a/xinwen/chanyexinwen/19.html', tppabs='http://dede40.va666.com/a/xinwen/chanyexinwen/19.html', target='_blank')
+										| more
+										i.fa.fa-angle-right
+					.clear
+					a.more.wow(href='index.htm', tppabs='http://dede40.va666.com/')
+						| MORE
+						i.fa.fa-angle-right
+					div(style='height:0')  
+			
+			#mpartner.module
+				.bgmask
+				.content.layoutslider
+					.header.wow.fw(data-wow-delay='.1s')
+						p.title 合作伙伴
+						p.subtitle partner
+					.module-content.fw
+						.wrapper
+							ul.content_list(data-options-ease='1', data-options-speed='0.5')
+								li#partneritem_0.wow
+									a(href='javascript:;')
+										img(src='/two/images/home/1-1609161H5190-L.png', width='160', height='80')
+									a(href='javascript:;')
+										img(src='/two/images/home/1-1609161HF40-L.png',  width='160', height='80')
+									a(href='javascript:')
+										img(src='/two/images/home/1462871055964.png',  width='160', height='80')
+									a(href='javascript:;', title='合作伙伴六', target='_blank')
+										img(src='/two/images/home/1462871099745.png',  width='160', height='80')
+									a(href='javascript:;', title='合作伙伴五', target='_blank')
+										img(src='/two/images/home/1462871169994.png',  width='160', height='80')
+									a(href='javascript:;', title='合作伙伴四', target='_blank')
+										img(src='/two/images/home/1462871200405.png',  width='160', height='80')
+									a(href='javascript:;', title='合作伙伴三', target='_blank')
+										img(src='/two/images/home/1462873320171.png', width='160', height='80')
+									a(href='javascript:;', title='合作伙伴二', target='_blank')
+										img(src='/two/images/home/1462874166153.png', width='160', height='80')
+								li.wow(id='partneritem_[field:global.autoindex/]')
+									a(href='javascript:;', title='合作伙伴一', target='_blank')
+										img(src='/two/images/home/146289863774.png',  width='160', height='80')
+			
+			#mcontact.module.bgShow(style='background-image:url(/two/images/home/contact.jpg);')
+				.bgmask
+				.content
+					.header.wow.fadeInUp.fw(data-wow-delay='.1s')
+						p.title 联系
+						p.subtitle Contact
+					#contactlist.fw
+						#contactinfo.fl.wow(data-wow-delay='.2s')
+							h3.ellipsis.name
+								| 创客云（北京）科技有限公司
+								br
+								| Maker Cloud ( Beijing ) Technology Co., Ltd.
+							p.ellipsis.add
+								span 地点：
+								| 广东省深圳市南山区科技产业园区松科苑19号楼
+							p.ellipsis.tel
+								span 电话：
+								| 400-888-8866
+							p.ellipsis.mobile
+								span 手机：
+								| 189135585855
+							p.ellipsis.email
+								span 邮箱：
+								| admin@qq.com
+							div
+								a.fl(target='_blank', href='javascript:;')
+									i.fa.fa-weibo
+								a.fl(target='_blank', href='tencent://message/?uin=8889999&Site=uemo&Menu=yes')
+									i.fa.fa-qq
+								a#mpbtn.fl(href='/two/images/home/1438424052624.jpg', tppabs='http://dede40.va666.com/two/images/home/1438424052624.jpg')
+									i.fa.fa-weixin
+						#contactform.fr.wow(data-wow-delay='.2s')
+							form(action='http://dede40.va666.com/plus/diy.php', enctype='multipart/form-data', method='post')
+								input(type='hidden', name='action', value='post')
+								input(type='hidden', name='diyid', value='1')
+								input(type='hidden', name='do', value='2')
+								p
+									input.inputtxt.name(type='text', name='name', placeholder='姓名', autocomplete='off')
+								p
+									input.inputtxt.email(type='text', name='email', placeholder='邮箱', autocomplete='off')
+								p
+									input.inputtxt.tel(type='text', name='tel', placeholder='电话', autocomplete='off')
+								p
+									textarea.inputtxt.cont(name='content', placeholder='内容', autocomplete='off')
+								p
+									input(type='hidden', name='dede_fields', value='name,text;email,text;tel,text;content,multitext')
+									input(type='hidden', name='dede_fieldshash', value='f0621dd062e7d0cfd9dd17aafe1b9c5a')
+									input.inputsub(type='submit', value='提交')
